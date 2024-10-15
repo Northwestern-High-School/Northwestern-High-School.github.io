@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>CLICKER</title>
-		<link rel="stylesheet" href="style.css" />
-		<script src="script.js"></script>
-  	</head>
-	<body>
-		<a href="index.html">Home</a>
-		<br>
-		<h1 class="title">CLICKER</h1>
-    		<div id="buttonDiv">Click the button below:</div>
-    		<div id="cookieDiv">Click the cookie below:</div>
-		<br>
-		<button onclick="buttonClicked()">Click me</button>
-		<br>
+    <head>
+        <title>CLICKER</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <br>
+        <h1 class="title">CLICKER</h1>
+	<div id="buttonDiv">Click the button below:</div>
 
-		<br>
-		<img id="cookie" src="cookie.png" alt="Cookie clipart" onclick="cookieClicked()">
-		
-		<div class="citation">
-			<a class="citationColor" href="https://creazilla.com/media/clipart/7802988/cookie" target="_blank">Cookie Clip Art</a>
-			by <a class="citationColor" href="https://gahag.net/" target="_blank">Gahag.net</a>.
-			License <a class="citationColor" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Public Domain; CC0 1.0</a>
-		</div>
-	</body>
+
+        <br>
+        <button onclick="buttonClicked()">Click me</button>
+	<br><br>
+	
+	<div id="cookieDiv">Click the cookie below:</div>
+	<br>
+	<img id="cookie" src="cookie.png" alt="Cookie clipart" onclick="cookieClicked()">
+	
+	<div class="citation">
+		<a class="citationColor" href="https://creazilla.com/media/clipart/7802988/cookie" target="_blank">Cookie Clip Art</a>
+		by <a class="citationColor" href="https://gahag.net/" target="_blank">Gahag.net</a>.
+		License <a class="citationColor" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank">Public Domain; CC0 1.0</a>
+	</div>
+	<br><br><br><br><br><br>
+	<button id="clearButton" onclick="clearClicks()">Reset Counters</button>
+    </body>
 </html>
