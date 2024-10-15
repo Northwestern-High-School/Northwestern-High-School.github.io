@@ -23,6 +23,14 @@ h1 {
 	width:300px;
 }
 
+#clearButton {
+	background-color:red;
+	color: white;
+	font-size:12px;
+	width:auto;
+	border-radius: 12px;
+}
+
 .citation {
 	font-size:12px;
 	font-style:italic;
