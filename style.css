@@ -1,5 +1,6 @@
 .title {
-    color: green;
+    	color: green;
+	font-size: 100px;
 }
 
 body {
@@ -11,14 +12,11 @@ button {
 	font-size:75px;
 }
 
-h1 {
-	font-size: 100px;
-}
-
 #buttonDiv, #cookieDiv {
 	font-style: italic;
 	font-size:30px;
 }
+
 #cookie {
 	width:300px;
 }
