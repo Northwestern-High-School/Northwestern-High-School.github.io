@@ -12,6 +12,7 @@ function buttonClicked() {
 }
 
 function clearClicks() {
+	alert("The number of clicks has been cleared");
 	numButtonClicks = 0;
 	numCookieClicks = 0;
 	document.getElementById("cookieDiv").innerHTML = "Click the cookie below:";
