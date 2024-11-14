@@ -37,3 +37,7 @@ button {
 .citationColor {
 	color: black;
 }
+
+.noBullet {
+	list-style-type: none; 
+}
